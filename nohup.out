@@ -1,0 +1,1428 @@
+*** Error, this build is outdated ***
+*** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
+*** Server will start in 20 seconds ***
+Loading libraries, please wait...
+[19:46:41] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[19:46:43] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[19:46:46] [Worker-Main-8/INFO]: Loaded 7 recipes
+[19:46:41] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[19:46:43] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[19:46:46] [Worker-Main-8/INFO]: Loaded 7 recipes
+[19:46:52] [Server thread/INFO]: Starting minecraft server version 1.16.3
+[19:46:52] [Server thread/INFO]: Loading properties
+[19:46:52] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Descriptor de archivo erróneo
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_265]
+	at java.io.FileInputStream.read(FileInputStream.java:255) ~[?:1.8.0_265]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[?:1.8.0_265]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265) ~[?:1.8.0_265]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[spigot-1.16.3.jar:git-Spigot-2740d5a-890130b]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[spigot-1.16.3.jar:git-Spigot-2740d5a-890130b]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[spigot-1.16.3.jar:git-Spigot-2740d5a-890130b]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[spigot-1.16.3.jar:git-Spigot-2740d5a-890130b]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[spigot-1.16.3.jar:git-Spigot-2740d5a-890130b]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[spigot-1.16.3.jar:git-Spigot-2740d5a-890130b]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[spigot-1.16.3.jar:git-Spigot-2740d5a-890130b]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[spigot-1.16.3.jar:git-Spigot-2740d5a-890130b]
+	at net.minecraft.server.v1_16_R2.DedicatedServer$1.run(DedicatedServer.java:80) [spigot-1.16.3.jar:git-Spigot-2740d5a-890130b]
+[19:46:54] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-2740d5a-890130b (MC: 1.16.3) (Implementing API version 1.16.3-R0.1-SNAPSHOT)
+[19:46:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:46:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:46:54] [Server thread/INFO]: Debug logging is disabled
+[19:46:54] [Server thread/INFO]: Default game type: SURVIVAL
+[19:46:54] [Server thread/INFO]: Generating keypair
+[19:46:55] [Server thread/INFO]: Starting Minecraft server on *:3090
+[19:46:55] [Server thread/INFO]: Using epoll channel type
+[19:47:01] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[19:47:14] [Server thread/WARN]: Legacy plugin Sleeping v1.0 does not specify an api-version.
+[19:47:14] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.0.72
+[19:47:14] [Server thread/INFO]: [Sleeping] Loading Sleeping v1.0
+[19:47:14] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.8.6
+[19:47:14] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.0.72
+[19:47:14] [Server thread/INFO]:         __    
+[19:47:14] [Server thread/INFO]:   |    |__)   LuckPerms v5.0.72
+[19:47:14] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
+[19:47:14] [Server thread/INFO]: 
+[19:47:14] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:47:15] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:47:19] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:47:19] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:47:20] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 5752ms)
+[19:47:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:47:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:47:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:47:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:47:20] [Server thread/INFO]: Preparing level "world"
+[19:47:20] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:47:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:47:20] [Server thread/INFO]: Mob Spawn Range: 6
+[19:47:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:47:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:47:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:47:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:47:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:47:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:47:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:47:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:47:20] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:47:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:47:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:47:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:47:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:47:20] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:47:20] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:47:20] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:47:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[19:47:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:47:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:47:20] [Server thread/INFO]: Max TNT Explosions: 100
+[19:47:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:47:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:47:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:47:20] [Server thread/INFO]: View Distance: 10
+[19:47:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:47:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:47:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:47:20] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:47:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:47:21] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:47:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:47:21] [Server thread/INFO]: Mob Spawn Range: 6
+[19:47:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[19:47:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:47:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:47:21] [Server thread/INFO]: Max TNT Explosions: 100
+[19:47:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:47:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:47:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:47:21] [Server thread/INFO]: View Distance: 10
+[19:47:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:47:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:47:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:47:21] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:47:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:47:21] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:47:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:47:21] [Server thread/INFO]: Mob Spawn Range: 6
+[19:47:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:47:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[19:47:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:47:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:47:21] [Server thread/INFO]: Max TNT Explosions: 100
+[19:47:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:47:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:47:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:47:21] [Server thread/INFO]: View Distance: 10
+[19:47:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:47:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:47:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:47:21] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:47:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:47:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:47:29] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:29] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:29] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:29] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:29] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:29] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:29] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:29] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:29] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:29] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:29] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:29] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:29] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:29] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:29] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:29] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:29] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:31] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:31] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:31] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:31] [Server thread/INFO]: Preparing spawn area: 83%
+[19:47:33] [Server thread/INFO]: Time elapsed: 11524 ms
+[19:47:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:47:38] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:38] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:38] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:38] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:38] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:38] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:38] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:38] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:38] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:38] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:38] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:38] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:39] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:39] [Server thread/INFO]: Time elapsed: 6589 ms
+[19:47:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:47:42] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:42] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:42] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:42] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:42] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:42] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:42] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:43] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:43] [Server thread/INFO]: Time elapsed: 4215 ms
+[19:47:43] [Server thread/INFO]: [Sleeping] Enabling Sleeping v1.0
+[19:47:43] [Server thread/INFO]: [Sleeping] Plugin loaded.
+[19:47:43] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.8.6
+[19:47:44] [Server thread/INFO]: [SkinsRestorer] Failed PaperSkinRefresher
+[19:47:44] [Server thread/INFO]: [SkinsRestorer] Using SpigotSkinRefresher
+[19:47:44] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_16_R2, using UniversalSkinFactory.
+[19:47:44] [Server thread/INFO]: [SkinsRestorer] DismountPlayerOnSkinUpdate is missing in config.yml! Using default value.
+[19:47:44] [Server thread/INFO]: [SkinsRestorer] RemountPlayerOnSkinUpdate is missing in config.yml! Using default value.
+[19:47:44] [Server thread/INFO]: [SkinsRestorer] DismountPassengersOnSkinUpdate is missing in config.yml! Using default value.
+[19:47:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:47:54] [Server thread/INFO]: Done (34.072s)! For help, type "help"
+[19:47:56] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:47:56] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     +===============+
+[19:47:56] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     | SkinsRestorer |
+[19:47:56] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     |---------------|
+[19:47:56] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     |   Bukkit only |
+[19:47:56] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     +===============+
+[19:47:56] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:47:56] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     Current version: 13.8.6
+[19:47:56] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     This is the latest version!
+[19:47:56] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:48:11] [User Authenticator #1/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[19:48:14] [Server thread/INFO]: TacoHardcore[/187.244.105.177:56319] logged in with entity id 471 at ([world]-45.18888901756026, 63.0, -139.43530165474078)
+[19:48:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5583ms or 111 ticks behind
+[19:49:03] [User Authenticator #2/INFO]: UUID of player drekblood is 71f1a7d9-df58-3b48-af17-74e0f2ea7b09
+[19:49:04] [Server thread/INFO]: drekblood[/201.160.195.130:15471] logged in with entity id 778 at ([world]-3.3714970466974257, 63.0, -109.82382696461497)
+[19:49:06] [Async Chat Thread - #0/INFO]: <TacoHardcore> oli
+[19:49:10] [Async Chat Thread - #0/INFO]: <drekblood> hholaa
+[19:49:22] [Async Chat Thread - #0/INFO]: <drekblood> ya veo que le esabas avanzando :o
+[19:49:28] [Async Chat Thread - #0/INFO]: <TacoHardcore> veni apes
+[19:49:42] [Async Chat Thread - #0/INFO]: <drekblood> voyys dame unos minuitos en lo que termino de subir todos los servicios
+[19:49:46] [Server thread/INFO]: drekblood lost connection: Disconnected
+[19:49:46] [Server thread/INFO]: drekblood left the game
+[19:50:36] [Async Chat Thread - #0/INFO]: <TacoHardcore> oki
+[19:53:02] [Server thread/WARN]: TacoHardcore moved too quickly! -43.98716667786981,-41.73507292985492,0.089850852650045
+[20:07:49] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[20:07:49] [Server thread/INFO]: TacoHardcore left the game
+[22:31:01] [User Authenticator #3/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[22:31:02] [Server thread/INFO]: TacoHardcore[/187.244.105.177:7779] logged in with entity id 5974 at ([world]-17.887816588362366, 63.0, -307.1345478217934)
+[22:42:45] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[22:42:45] [Server thread/INFO]: TacoHardcore left the game
+[22:43:08] [User Authenticator #4/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[22:43:08] [Server thread/INFO]: TacoHardcore[/187.244.105.177:55220] logged in with entity id 7805 at ([world]38.30000001192093, 59.10031582879915, -309.51249998807907)
+[22:43:09] [User Authenticator #5/INFO]: UUID of player Clubstep is db1d293c-eeab-3e9d-88eb-fdbb1177a406
+[22:43:10] [Server thread/INFO]: Clubstep[/177.232.91.67:53519] logged in with entity id 7813 at ([world]-2224.7900464736836, 105.90968610280409, -224.09779778976653)
+[22:43:10] [Server thread/WARN]: Entity EntityPlayer['Clubstep'/7813, l='ServerLevel[world]', x=-2223.10, y=105.75, z=-224.20](Clubstep at -2223.1040471285046,105.74890226884166,-224.2000814800274) left loaded chunk area
+[22:43:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5041ms or 100 ticks behind
+[22:43:45] [Async Chat Thread - #1/INFO]: <TacoHardcore> asd
+[22:43:48] [Server thread/WARN]: TacoHardcore moved too quickly! 3.380717173223917,2.249187078744683,9.36053523836307
+[22:43:48] [Server thread/WARN]: Entity EntityPlayer['Clubstep'/7813, l='ServerLevel[world]', x=-2208.60, y=83.75, z=-63.79](Clubstep at -2208.602751662392,83.75150449563,-63.794730989407256) left loaded chunk area
+[22:43:49] [Server thread/WARN]: Clubstep moved wrongly!
+[22:44:13] [Server thread/WARN]: Entity EntityPlayer['Clubstep'/7813, l='ServerLevel[world]', x=-1807.21, y=141.94, z=25.52](Clubstep at -1807.2131290530401,141.94363939010586,25.52409614199902) left loaded chunk area
+[22:44:17] [Server thread/WARN]: Entity EntityPlayer['Clubstep'/7813, l='ServerLevel[world]', x=-1695.59, y=138.82, z=14.82](Clubstep at -1695.5914465326664,138.8161224413974,14.82091684414495) left loaded chunk area
+[22:44:20] [Server thread/WARN]: Entity EntityPlayer['Clubstep'/7813, l='ServerLevel[world]', x=-1646.66, y=135.16, z=10.25](Clubstep at -1646.6552616587737,135.16066294335354,10.245990351405155) left loaded chunk area
+[22:44:30] [Server thread/INFO]: Clubstep lost connection: Disconnected
+[22:44:30] [Server thread/INFO]: Clubstep left the game
+[22:44:32] [User Authenticator #6/INFO]: UUID of player Clubstep is db1d293c-eeab-3e9d-88eb-fdbb1177a406
+[22:44:33] [Server thread/INFO]: Clubstep[/177.232.91.67:53631] logged in with entity id 9030 at ([world]-1238.5115514813722, 82.37020799122855, -35.41989089641342)
+[22:44:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 55670ms or 1113 ticks behind
+[22:45:21] [Server thread/WARN]: Entity EntityPlayer['Clubstep'/9030, l='ServerLevel[world]', x=-239.91, y=186.48, z=-68.44](Clubstep at -239.90630053435686,186.47971881350597,-68.43624765450231) left loaded chunk area
+[22:45:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18244ms or 364 ticks behind
+[22:46:54] [Server thread/INFO]: Clubstep lost connection: Disconnected
+[22:46:54] [Server thread/INFO]: Clubstep left the game
+[22:46:57] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[22:46:57] [Server thread/INFO]: TacoHardcore left the game
+[00:43:34] [User Authenticator #7/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[00:43:35] [Server thread/INFO]: TacoHardcore[/187.244.105.177:23863] logged in with entity id 11195 at ([world]41.3807032806161, 63.0, -297.0195115073516)
+[00:44:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[00:45:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
+[00:48:01] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[00:48:01] [Server thread/INFO]: TacoHardcore left the game
+[00:54:09] [User Authenticator #8/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[00:54:10] [Server thread/INFO]: TacoHardcore[/187.244.105.177:24732] logged in with entity id 12030 at ([world]36.57369634413419, 63.796735600668704, -303.0482300834938)
+[01:12:56] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[01:12:57] [Server thread/INFO]: TacoHardcore left the game
+[01:16:45] [User Authenticator #9/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[01:16:46] [Server thread/INFO]: TacoHardcore[/187.244.105.177:45122] logged in with entity id 15013 at ([world]70.01693547099009, 63.0, -217.8886904967082)
+[01:30:36] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[01:30:36] [Server thread/INFO]: TacoHardcore left the game
+[14:40:43] [User Authenticator #10/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[14:40:44] [Server thread/INFO]: TacoHardcore[/187.244.105.177:51937] logged in with entity id 27252 at ([world]6.707089291706128, 62.0, -277.6812091667052)
+[14:52:09] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[14:52:09] [Server thread/INFO]: TacoHardcore left the game
+[15:25:23] [User Authenticator #11/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[15:25:24] [Server thread/INFO]: TacoHardcore[/187.244.105.177:44592] logged in with entity id 29120 at ([world]43.96632400020513, 62.0, -255.03351371813258)
+[15:27:08] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[15:27:08] [Server thread/INFO]: TacoHardcore left the game
+[15:35:03] [User Authenticator #12/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[15:35:04] [Server thread/INFO]: TacoHardcore[/187.244.105.177:8173] logged in with entity id 29426 at ([world]2.7418703011114838, 62.0, -288.35592851020675)
+[15:41:13] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[15:41:13] [Server thread/INFO]: TacoHardcore left the game
+[17:00:05] [User Authenticator #13/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[17:00:05] [Server thread/INFO]: TacoHardcore[/187.244.105.177:30846] logged in with entity id 31235 at ([world]-60.979280179095284, 63.0, -312.6259873708926)
+[17:02:18] [User Authenticator #14/INFO]: UUID of player SoyAndyy is 5013287d-0a38-331a-8e01-2e68ed796aa9
+[17:02:19] [Server thread/INFO]: SoyAndyy[/189.217.73.210:22693] logged in with entity id 32112 at ([world]-56.0362269109208, 64.0, -127.31447925240548)
+[17:03:25] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[17:03:25] [Server thread/INFO]: TacoHardcore left the game
+[17:03:55] [User Authenticator #15/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[17:03:56] [Server thread/INFO]: TacoHardcore[/187.244.105.177:27688] logged in with entity id 32461 at ([world]-3.6417161842014436, 66.0, -169.3835092208227)
+[17:14:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5015ms or 100 ticks behind
+[17:18:32] [Server thread/INFO]: SoyAndyy lost connection: Disconnected
+[17:18:32] [Server thread/INFO]: SoyAndyy left the game
+[17:18:36] [User Authenticator #16/INFO]: UUID of player SoyAndyy is 5013287d-0a38-331a-8e01-2e68ed796aa9
+[17:18:37] [Server thread/INFO]: SoyAndyy[/189.217.73.210:58541] logged in with entity id 35603 at ([world]-33.321637784098, 63.0, -112.74810709270575)
+[17:23:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
+[17:24:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6956ms or 139 ticks behind
+[17:30:56] [Server thread/INFO]: SoyAndyy lost connection: Disconnected
+[17:30:56] [Server thread/INFO]: SoyAndyy left the game
+[17:31:17] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[17:31:17] [Server thread/INFO]: TacoHardcore left the game
+[17:51:49] [User Authenticator #17/INFO]: UUID of player SoyAndyy is 5013287d-0a38-331a-8e01-2e68ed796aa9
+[17:51:49] [Server thread/INFO]: SoyAndyy[/189.217.73.210:49985] logged in with entity id 38336 at ([world]4.48794813777838, 63.0, -120.18881563354333)
+[17:58:45] [User Authenticator #18/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[17:58:45] [Server thread/INFO]: TacoHardcore[/187.244.105.177:19524] logged in with entity id 39196 at ([world]9.215223461729526, 63.0, -116.98723255199647)
+[18:12:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
+[18:23:22] [Server thread/INFO]: TacoHardcore lost connection: Timed out
+[18:23:22] [Server thread/INFO]: TacoHardcore left the game
+[18:31:15] [User Authenticator #19/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[18:31:15] [Server thread/INFO]: TacoHardcore[/187.244.105.177:1502] logged in with entity id 46347 at ([world]-3.7013344995881976, 77.50603753946478, -224.87790595620544)
+[18:33:02] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[18:33:02] [Server thread/INFO]: TacoHardcore left the game
+[18:37:25] [User Authenticator #20/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[18:37:26] [Server thread/INFO]: TacoHardcore[/187.244.105.177:48592] logged in with entity id 47654 at ([world]-10.20609824317392, 63.875, -277.54715965711785)
+[18:45:20] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[18:45:20] [Server thread/INFO]: TacoHardcore left the game
+[18:50:23] [Server thread/INFO]: SoyAndyy lost connection: Disconnected
+[18:50:23] [Server thread/INFO]: SoyAndyy left the game
+[19:37:25] [User Authenticator #21/INFO]: UUID of player Gersau is 107b0459-ec56-3344-9801-148163fb9011
+[19:37:25] [Server thread/INFO]: Gersau[/189.243.177.252:50412] logged in with entity id 50314 at ([world]154.1522037892982, 77.0, -294.31112021847423)
+[21:00:24] [User Authenticator #22/INFO]: UUID of player Gersau is 107b0459-ec56-3344-9801-148163fb9011
+[21:00:24] [Server thread/INFO]: Gersau lost connection: You logged in from another location
+[21:00:24] [Server thread/INFO]: Gersau left the game
+[21:00:24] [Server thread/INFO]: Gersau[/189.243.177.252:50468] logged in with entity id 59834 at ([world]107.78581914583897, 71.9375, -433.5047954223027)
+[21:08:10] [Server thread/INFO]: Gersau was blown up by Creeper
+[21:15:53] [Server thread/INFO]: Gersau lost connection: Disconnected
+[21:15:53] [Server thread/INFO]: Gersau left the game
+[21:33:38] [User Authenticator #23/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[21:33:39] [Server thread/INFO]: TacoHardcore[/187.244.105.177:24742] logged in with entity id 62038 at ([world]-6.814279735874909, 66.0, -175.09099720857236)
+[21:41:50] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[21:41:50] [Server thread/INFO]: TacoHardcore left the game
+[15:46:43] [User Authenticator #24/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[15:46:44] [Server thread/INFO]: TacoHardcore[/187.244.105.177:48447] logged in with entity id 77268 at ([world]-2.2270777519973435, 65.0, -176.41557382901877)
+[15:58:05] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[15:58:05] [Server thread/INFO]: TacoHardcore left the game
+[16:39:35] [User Authenticator #25/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[16:39:35] [Server thread/INFO]: TacoHardcore[/187.244.105.177:19801] logged in with entity id 79122 at ([world]-5.318478100836134, 66.0, -176.12159991321155)
+[17:15:42] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[17:15:42] [Server thread/INFO]: TacoHardcore left the game
+[17:34:09] [User Authenticator #26/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[17:34:10] [Server thread/INFO]: TacoHardcore[/187.244.105.177:53812] logged in with entity id 84136 at ([world]-6.144017498666342, 66.0, -175.8375144088102)
+[17:34:47] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[17:34:47] [Server thread/INFO]: TacoHardcore left the game
+[20:11:23] [User Authenticator #27/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[20:11:23] [Server thread/INFO]: TacoHardcore[/187.244.105.177:19310] logged in with entity id 86355 at ([world]4.5477488946659905, 63.0, -282.57214700754105)
+[20:13:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
+[20:18:00] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[20:18:00] [Server thread/INFO]: TacoHardcore left the game
+[20:54:40] [User Authenticator #28/INFO]: UUID of player drekblood is 71f1a7d9-df58-3b48-af17-74e0f2ea7b09
+[20:54:40] [Server thread/INFO]: drekblood[/201.160.195.2:18070] logged in with entity id 87937 at ([world]-1.6828857950952965, 64.875, -126.24022916048553)
+[20:57:58] [Server thread/INFO]: drekblood lost connection: Disconnected
+[20:57:58] [Server thread/INFO]: drekblood left the game
+[20:59:16] [User Authenticator #29/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[20:59:17] [Server thread/INFO]: TacoHardcore[/187.244.105.177:35179] logged in with entity id 88494 at ([world_nether]411.1360346333689, 78.0, -173.4139101811527)
+[20:59:59] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[20:59:59] [Server thread/INFO]: TacoHardcore left the game
+[00:02:30] [User Authenticator #30/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[00:02:30] [Server thread/INFO]: TacoHardcore[/187.244.105.177:29859] logged in with entity id 91058 at ([world_nether]400.5284610295156, 74.17977553657329, -84.19358490288897)
+[00:04:58] [Server thread/WARN]: TacoHardcore moved too quickly! -3.1298737333199824,-7.829837032203997,53.35169769510005
+[00:09:58] [Server thread/WARN]: TacoHardcore moved too quickly! -15.11674010059528,-0.8280401871783738,8.915399026130064
+[00:34:57] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[00:34:57] [Server thread/INFO]: TacoHardcore left the game
+[00:37:58] [User Authenticator #31/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[00:37:59] [Server thread/INFO]: TacoHardcore[/187.244.105.177:11090] logged in with entity id 96743 at ([world]13.79953225381905, 63.0, -277.81919041102213)
+[00:48:57] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[00:48:57] [Server thread/INFO]: TacoHardcore left the game
+[00:48:59] [User Authenticator #32/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[00:48:59] [Server thread/INFO]: TacoHardcore[/187.244.105.177:36715] logged in with entity id 98334 at ([world_nether]2.5, 99.0, -35.44582447566318)
+[00:50:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
+[01:12:20] [User Authenticator #33/INFO]: UUID of player Gersau is 107b0459-ec56-3344-9801-148163fb9011
+[01:12:20] [Server thread/INFO]: Gersau[/189.243.167.137:50097] logged in with entity id 102476 at ([world]95.66713531659454, 71.0, -418.6190143160841)
+[01:12:45] [Server thread/INFO]: Gersau lost connection: Timed out
+[01:12:45] [Server thread/INFO]: Gersau left the game
+[01:14:43] [User Authenticator #34/INFO]: UUID of player Gersau is 107b0459-ec56-3344-9801-148163fb9011
+[01:14:44] [Server thread/INFO]: Gersau[/189.243.167.137:50106] logged in with entity id 102998 at ([world]95.66713531659454, 71.0, -418.6190143160841)
+[01:15:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5826ms or 116 ticks behind
+[01:15:09] [Server thread/INFO]: Gersau lost connection: Timed out
+[01:15:09] [Server thread/INFO]: Gersau left the game
+[01:15:51] [User Authenticator #35/INFO]: UUID of player SoyAndyy is 5013287d-0a38-331a-8e01-2e68ed796aa9
+[01:15:52] [Server thread/INFO]: SoyAndyy[/189.217.73.210:50283] logged in with entity id 103183 at ([world]3.546747310672493, 63.0, -158.16204329096934)
+[01:16:08] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[01:16:08] [Server thread/INFO]: TacoHardcore left the game
+[01:16:15] [Server thread/INFO]: SoyAndyy lost connection: Disconnected
+[01:16:15] [Server thread/INFO]: SoyAndyy left the game
+[01:16:17] [User Authenticator #36/INFO]: UUID of player SoyAndyy is 5013287d-0a38-331a-8e01-2e68ed796aa9
+[01:16:18] [Server thread/INFO]: SoyAndyy[/189.217.73.210:21515] logged in with entity id 103295 at ([world]3.5527704875605575, 63.0, -158.15281876784164)
+[01:17:01] [User Authenticator #37/INFO]: UUID of player Gersau is 107b0459-ec56-3344-9801-148163fb9011
+[01:17:02] [Server thread/INFO]: Gersau[/189.243.167.137:50109] logged in with entity id 103393 at ([world]95.68131999785813, 71.0, -418.6312447236478)
+[01:17:27] [Server thread/INFO]: Gersau lost connection: Timed out
+[01:17:27] [Server thread/INFO]: Gersau left the game
+[01:17:52] [User Authenticator #38/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[01:17:53] [Server thread/INFO]: TacoHardcore[/187.244.105.177:41932] logged in with entity id 103638 at ([world_nether]771.8009820337749, 52.0, -31.56344646330737)
+[01:18:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
+[01:20:16] [Server thread/WARN]: TacoHardcore moved too quickly! 12.625961873420465,-22.548568838650276,-44.607373532185676
+[01:20:16] [Server thread/WARN]: SoyAndyy moved too quickly! 8.652679013989122,0.5,5.389096168526294
+[01:20:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5042ms or 100 ticks behind
+[01:21:20] [User Authenticator #39/INFO]: UUID of player Gersau is 107b0459-ec56-3344-9801-148163fb9011
+[01:21:20] [Server thread/INFO]: Gersau[/189.243.167.137:65304] logged in with entity id 105031 at ([world]95.68131999785813, 71.0, -418.6312447236478)
+[01:21:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5028ms or 100 ticks behind
+[01:21:46] [Server thread/INFO]: Gersau lost connection: Timed out
+[01:21:46] [Server thread/INFO]: Gersau left the game
+[01:22:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13080ms or 261 ticks behind
+[01:22:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5128ms or 102 ticks behind
+[01:23:01] [Server thread/WARN]: TacoHardcore moved wrongly!
+[01:23:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8376ms or 167 ticks behind
+[01:24:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5080ms or 101 ticks behind
+[01:24:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[01:51:00] [Server thread/WARN]: SoyAndyy moved too quickly! 9.838190648823854,1.1661092609382138,2.6743110375481365
+[01:55:59] [Server thread/WARN]: TacoHardcore moved too quickly! 0.40792207592808527,-3.6501018421828775,26.389810483346082
+[02:00:20] [Server thread/INFO]: SoyAndyy has made the advancement [Bring Home the Beacon]
+[02:05:29] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[02:05:29] [Server thread/INFO]: TacoHardcore left the game
+[02:06:56] [User Authenticator #40/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[02:06:57] [Server thread/INFO]: TacoHardcore[/187.244.105.177:43714] logged in with entity id 115437 at ([world]-2.617098097747625, 63.0, -168.30000001192093)
+[02:13:22] [Server thread/INFO]: SoyAndyy has made the advancement [A Terrible Fortress]
+[02:17:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
+[02:20:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5059ms or 101 ticks behind
+[02:21:15] [Async Chat Thread - #2/INFO]: <TacoHardcore> asd
+[02:26:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5058ms or 101 ticks behind
+[02:36:18] [Server thread/WARN]: TacoHardcore moved too quickly! 0.48099949808482734,1.1661092609382138,10.016501963059909
+[02:36:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5118ms or 102 ticks behind
+[02:41:11] [Async Chat Thread - #3/INFO]: <SoyAndyy> te amo
+[02:41:14] [Server thread/INFO]: SoyAndyy lost connection: Disconnected
+[02:41:14] [Server thread/INFO]: SoyAndyy left the game
+[02:41:16] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[02:41:16] [Server thread/INFO]: TacoHardcore left the game
+[13:07:58] [User Authenticator #41/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[13:07:59] [Server thread/INFO]: TacoHardcore[/187.244.105.177:56613] logged in with entity id 128250 at ([world_nether]421.30000001192093, 57.0, 1285.699999988079)
+[13:09:22] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[13:09:22] [Server thread/INFO]: TacoHardcore left the game
+[14:17:52] [User Authenticator #42/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[14:17:53] [Server thread/INFO]: TacoHardcore[/187.244.105.177:54311] logged in with entity id 129590 at ([world_nether]791.8076418975447, 85.0, 1494.9051350777543)
+[14:19:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5017ms or 100 ticks behind
+[14:23:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5093ms or 101 ticks behind
+[14:29:25] [Server thread/INFO]: TacoHardcore has made the advancement [Oh Shiny]
+[14:31:38] [Server thread/INFO]: TacoHardcore was slain by Piglin Brute
+[14:36:35] [Server thread/WARN]: TacoHardcore moved too quickly! 6.303203121281854,-8.134617890297818,23.227259057019637
+[14:36:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6721ms or 134 ticks behind
+[14:42:39] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[14:42:39] [Server thread/INFO]: TacoHardcore left the game
+[18:08:11] [User Authenticator #43/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[18:08:12] [Server thread/INFO]: TacoHardcore[/187.244.105.177:56618] logged in with entity id 137728 at ([world_nether]1013.338268557809, 54.0, 2085.699999988079)
+[18:08:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5024ms or 100 ticks behind
+[18:09:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[18:11:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5015ms or 100 ticks behind
+[18:11:46] [Server thread/INFO]: TacoHardcore was slain by Piglin Brute
+[18:11:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5096ms or 101 ticks behind
+[18:12:09] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[18:12:09] [Server thread/INFO]: TacoHardcore left the game
+[18:13:03] [User Authenticator #44/INFO]: UUID of player SoyAndyy is 5013287d-0a38-331a-8e01-2e68ed796aa9
+[18:13:04] [Server thread/INFO]: SoyAndyy[/187.244.105.177:15724] logged in with entity id 138787 at ([world_nether]422.69548516063253, 57.0, 1285.699999988079)
+[18:14:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
+[18:14:32] [Server thread/INFO]: SoyAndyy has made the advancement [Those Were the Days]
+[18:15:10] [Server thread/INFO]: SoyAndyy has made the advancement [Suit Up]
+[18:22:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5047ms or 100 ticks behind
+[18:23:18] [Server thread/INFO]: SoyAndyy has completed the challenge [Hot Tourist Destinations]
+[18:24:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5039ms or 100 ticks behind
+[18:27:43] [Server thread/INFO]: SoyAndyy lost connection: Disconnected
+[18:27:43] [Server thread/INFO]: SoyAndyy left the game
+[18:28:36] [User Authenticator #45/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[18:28:37] [Server thread/INFO]: TacoHardcore[/187.244.105.177:40534] logged in with entity id 141595 at ([world]-0.7118289729846533, 63.0, -254.0673686069787)
+[18:39:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5085ms or 101 ticks behind
+[18:46:21] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[18:46:21] [Server thread/INFO]: TacoHardcore left the game
+[18:47:29] [User Authenticator #46/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[18:47:30] [Server thread/INFO]: TacoHardcore[/187.244.105.177:32073] logged in with entity id 145386 at ([world]-21.378825088171364, 63.0, -164.2025596726154)
+[18:50:17] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[18:50:17] [Server thread/INFO]: TacoHardcore left the game
+[21:34:20] [User Authenticator #47/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[21:34:21] [Server thread/INFO]: TacoHardcore[/187.244.105.177:55693] logged in with entity id 147975 at ([world]5.165883197478518, 63.0, -195.18859527908765)
+[21:40:57] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[21:40:57] [Server thread/INFO]: TacoHardcore left the game
+[22:09:57] [User Authenticator #48/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[22:09:58] [Server thread/INFO]: TacoHardcore[/187.244.105.177:58474] logged in with entity id 149770 at ([world_nether]208.74729395877657, 46.0, -328.96454999964953)
+[22:10:24] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[22:10:24] [Server thread/INFO]: TacoHardcore left the game
+[22:13:14] [User Authenticator #49/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[22:13:15] [Server thread/INFO]: TacoHardcore[/187.244.105.177:41903] logged in with entity id 149887 at ([world_nether]219.36074520588457, 47.0, -322.4841949419664)
+[22:18:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
+[22:22:23] [Server thread/WARN]: TacoHardcore moved too quickly! 1.913784487530279,0.0,-14.391956130548408
+[22:37:50] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[22:37:50] [Server thread/INFO]: TacoHardcore left the game
+[00:03:47] [User Authenticator #50/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[00:03:48] [Server thread/INFO]: TacoHardcore[/187.244.105.177:53885] logged in with entity id 155102 at ([world_nether]545.841736681354, 64.0, -659.961447808991)
+[00:05:37] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[00:05:37] [Server thread/INFO]: TacoHardcore left the game
+[01:20:40] [User Authenticator #51/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[01:20:41] [Server thread/INFO]: TacoHardcore[/187.244.105.177:51308] logged in with entity id 156364 at ([world_nether]430.708153031349, 52.0, -688.3000000119209)
+[01:21:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5018ms or 100 ticks behind
+[01:21:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6527ms or 130 ticks behind
+[01:22:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
+[01:23:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5048ms or 100 ticks behind
+[01:24:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5037ms or 100 ticks behind
+[01:25:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5015ms or 100 ticks behind
+[01:25:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7698ms or 153 ticks behind
+[01:26:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6915ms or 138 ticks behind
+[01:27:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5056ms or 101 ticks behind
+[01:28:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5019ms or 100 ticks behind
+[01:28:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6318ms or 126 ticks behind
+[01:29:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5022ms or 100 ticks behind
+[01:30:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5017ms or 100 ticks behind
+[01:31:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5822ms or 116 ticks behind
+[01:31:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6060ms or 121 ticks behind
+[01:32:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5252ms or 105 ticks behind
+[01:33:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6119ms or 122 ticks behind
+[01:33:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10859ms or 217 ticks behind
+[01:34:16] [Async Chat Thread - #4/INFO]: <TacoHardcore> a
+[01:34:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14313ms or 286 ticks behind
+[01:35:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6200ms or 124 ticks behind
+[01:35:35] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[01:35:35] [Server thread/INFO]: TacoHardcore left the game
+[01:39:11] [User Authenticator #52/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[01:39:12] [Server thread/INFO]: TacoHardcore[/187.244.105.177:9159] logged in with entity id 158141 at ([world_nether]296.78369208862824, 57.0, -429.1090110403413)
+[01:39:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
+[01:41:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5049ms or 100 ticks behind
+[01:42:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5028ms or 100 ticks behind
+[01:43:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5025ms or 100 ticks behind
+[01:43:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
+[01:44:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5015ms or 100 ticks behind
+[01:45:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6339ms or 126 ticks behind
+[01:45:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
+[01:46:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
+[01:47:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5643ms or 112 ticks behind
+[01:49:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5016ms or 100 ticks behind
+[01:50:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6456ms or 129 ticks behind
+[01:51:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[01:52:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6462ms or 129 ticks behind
+[01:52:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
+[01:53:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5021ms or 100 ticks behind
+[01:54:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
+[01:55:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5056ms or 101 ticks behind
+[01:55:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5025ms or 100 ticks behind
+[01:56:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[01:58:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[01:59:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5042ms or 100 ticks behind
+[01:59:31] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[01:59:31] [Server thread/INFO]: TacoHardcore left the game
+[12:27:52] [User Authenticator #53/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[12:27:53] [Server thread/INFO]: TacoHardcore[/187.244.105.177:29154] logged in with entity id 169009 at ([world]0.25021074848023594, 63.0, -200.19311062668265)
+[12:49:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5012ms or 100 ticks behind
+[12:50:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5028ms or 100 ticks behind
+[12:54:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5011ms or 100 ticks behind
+[12:56:26] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[12:56:26] [Server thread/INFO]: TacoHardcore left the game
+[14:07:04] [User Authenticator #54/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[14:07:04] [Server thread/INFO]: TacoHardcore[/187.244.105.177:17273] logged in with entity id 175828 at ([world_nether]-524.5422691696862, 37.0, -684.3000000119209)
+[14:07:11] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[14:07:11] [Server thread/INFO]: TacoHardcore left the game
+[15:40:15] [User Authenticator #55/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[15:40:16] [Server thread/INFO]: TacoHardcore[/187.244.105.177:61247] logged in with entity id 177133 at ([world_nether]-524.6999999880791, 37.0, -684.3000000119209)
+[15:40:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5064ms or 101 ticks behind
+[15:41:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9875ms or 197 ticks behind
+[15:42:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6804ms or 136 ticks behind
+[15:43:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5056ms or 101 ticks behind
+[15:44:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5018ms or 100 ticks behind
+[15:45:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5011ms or 100 ticks behind
+[15:47:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
+[15:50:53] [Server thread/WARN]: TacoHardcore moved wrongly!
+[16:02:45] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[16:02:45] [Server thread/INFO]: TacoHardcore left the game
+[01:38:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5029ms or 100 ticks behind
+[01:39:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9873ms or 197 ticks behind
+[01:40:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13888ms or 277 ticks behind
+[01:43:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5011ms or 100 ticks behind
+[01:55:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
+[01:56:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
+[01:56:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8536ms or 170 ticks behind
+[02:20:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5066ms or 101 ticks behind
+[02:21:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6578ms or 131 ticks behind
+[02:28:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5359ms or 107 ticks behind
+[02:29:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6572ms or 131 ticks behind
+[02:29:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13681ms or 273 ticks behind
+[02:30:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6090ms or 121 ticks behind
+[19:16:33] [User Authenticator #56/INFO]: UUID of player ChekeMc is 385b0987-ad60-3223-8dce-844e7b47b482
+[19:16:34] [Server thread/INFO]: ChekeMc[/187.144.176.29:60870] logged in with entity id 202267 at ([world]-109.03140005755388, 80.0, -399.47473380585524)
+[19:29:23] [Server thread/INFO]: ChekeMc lost connection: Disconnected
+[19:29:23] [Server thread/INFO]: ChekeMc left the game
+[20:06:10] [User Authenticator #57/INFO]: UUID of player ChekeMc is 385b0987-ad60-3223-8dce-844e7b47b482
+[20:06:10] [Server thread/INFO]: ChekeMc[/187.144.176.29:61029] logged in with entity id 205388 at ([world]-140.65719472746, 57.0, -400.69999998807907)
+[20:46:10] [Server thread/INFO]: ChekeMc lost connection: Disconnected
+[20:46:10] [Server thread/INFO]: ChekeMc left the game
+[20:46:36] [User Authenticator #58/INFO]: UUID of player ChekeMc is 385b0987-ad60-3223-8dce-844e7b47b482
+[20:46:37] [Server thread/INFO]: ChekeMc[/187.144.176.29:61105] logged in with entity id 212444 at ([world]-121.54716338196238, 70.0, -399.41876599902906)
+[20:49:42] [Server thread/INFO]: ChekeMc lost connection: Disconnected
+[20:49:42] [Server thread/INFO]: ChekeMc left the game
+[20:50:04] [User Authenticator #59/INFO]: UUID of player ChekeMc is 385b0987-ad60-3223-8dce-844e7b47b482
+[20:50:05] [Server thread/INFO]: ChekeMc[/187.144.176.29:61120] logged in with entity id 212794 at ([world]-143.07258898378177, 57.0, -399.91608503134125)
+[21:26:52] [Server thread/INFO]: ChekeMc lost connection: Disconnected
+[21:26:52] [Server thread/INFO]: ChekeMc left the game
+[21:26:54] [User Authenticator #60/INFO]: UUID of player ChekeMc is 385b0987-ad60-3223-8dce-844e7b47b482
+[21:26:54] [Server thread/INFO]: ChekeMc[/187.144.176.29:61221] logged in with entity id 218477 at ([world]-124.13720131854886, 73.0, -360.53828519384496)
+[21:26:57] [Server thread/INFO]: ChekeMc lost connection: Disconnected
+[21:26:57] [Server thread/INFO]: ChekeMc left the game
+[21:28:11] [User Authenticator #61/INFO]: UUID of player ChekeMc is 385b0987-ad60-3223-8dce-844e7b47b482
+[21:28:11] [Server thread/INFO]: ChekeMc[/187.144.176.29:61242] logged in with entity id 218502 at ([world]-124.13720131854886, 73.0, -360.53828519384496)
+[22:10:38] [Server thread/INFO]: ChekeMc lost connection: Disconnected
+[22:10:38] [Server thread/INFO]: ChekeMc left the game
+[02:08:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
+[02:21:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[00:00:34] [User Authenticator #62/INFO]: UUID of player ChekeMc is 385b0987-ad60-3223-8dce-844e7b47b482
+[00:00:35] [Server thread/INFO]: ChekeMc[/187.144.176.29:50299] logged in with entity id 246834 at ([world]24.085058239949497, 63.492033863169205, -219.32843059145392)
+[00:08:36] [Server thread/INFO]: ChekeMc has reached the goal [Postmortal]
+[00:37:20] [Server thread/WARN]: ChekeMc moved wrongly!
+[00:37:20] [Server thread/WARN]: ChekeMc moved wrongly!
+[00:58:05] [Server thread/INFO]: ChekeMc lost connection: Disconnected
+[00:58:05] [Server thread/INFO]: ChekeMc left the game
+[01:06:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
+[01:09:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[01:29:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5020ms or 100 ticks behind
+[02:58:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
+[05:09:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11103ms or 222 ticks behind
+[10:53:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7629ms or 152 ticks behind
+[14:57:06] [User Authenticator #63/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[14:57:07] [Server thread/INFO]: TacoHardcore[/187.244.104.57:31704] logged in with entity id 268930 at ([world]11.268027609790874, 63.0, -293.9928397862938)
+[15:04:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6798ms or 135 ticks behind
+[15:34:30] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[15:34:31] [Server thread/INFO]: TacoHardcore left the game
+[22:32:01] [User Authenticator #64/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[22:32:02] [Server thread/INFO]: TacoHardcore[/187.244.104.57:42615] logged in with entity id 280444 at ([world]13.797081508036042, 63.0, -300.4746489850092)
+[23:11:47] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[23:11:47] [Server thread/INFO]: TacoHardcore left the game
+[00:55:51] [User Authenticator #65/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[00:55:52] [Server thread/INFO]: TacoHardcore[/187.244.104.57:46766] logged in with entity id 287758 at ([world]-58.9196044126725, 126.5, -245.46769220093745)
+[01:02:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5026ms or 100 ticks behind
+[01:03:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5019ms or 100 ticks behind
+[01:04:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5724ms or 114 ticks behind
+[01:04:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10147ms or 202 ticks behind
+[01:05:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
+[01:06:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5198ms or 103 ticks behind
+[01:06:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5485ms or 109 ticks behind
+[01:06:48] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[01:06:48] [Server thread/INFO]: TacoHardcore left the game
+[01:07:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[01:25:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
+[01:29:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12462ms or 249 ticks behind
+[02:07:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
+[05:49:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8163ms or 163 ticks behind
+[12:34:48] [User Authenticator #66/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[12:34:48] [Server thread/INFO]: TacoHardcore[/187.244.104.57:19087] logged in with entity id 298573 at ([world]-73.29563871781598, 63.0, -301.27284251406564)
+[12:40:05] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[12:40:05] [Server thread/INFO]: TacoHardcore left the game
+[13:02:33] [User Authenticator #67/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[13:02:33] [Server thread/INFO]: TacoHardcore[/187.244.104.57:25733] logged in with entity id 300004 at ([world_nether]-118.69999998807907, 74.0, 263.25982055562724)
+[13:14:51] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[13:14:51] [Server thread/INFO]: TacoHardcore left the game
+[13:17:08] [User Authenticator #68/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[13:17:09] [Server thread/INFO]: TacoHardcore[/187.244.104.57:15761] logged in with entity id 302264 at ([world_nether]59.17872786337102, 36.0, 602.9028488257358)
+[13:26:32] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[13:26:32] [Server thread/INFO]: TacoHardcore left the game
+[14:45:09] [User Authenticator #69/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[14:45:10] [Server thread/INFO]: TacoHardcore[/187.244.104.57:48196] logged in with entity id 305260 at ([world]13.871209011888412, 64.0, -298.1998061918608)
+[14:48:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
+[15:01:13] [Server thread/WARN]: TacoHardcore moved too quickly! -37.27106918760673,-8.05363675704018,-3.708637004638547
+[15:30:03] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[15:30:03] [Server thread/INFO]: TacoHardcore left the game
+[16:22:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5025ms or 100 ticks behind
+[16:23:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18871ms or 377 ticks behind
+[17:26:17] [User Authenticator #70/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[17:26:18] [Server thread/INFO]: TacoHardcore[/187.244.104.57:62640] logged in with entity id 316509 at ([world]-24.592959180421307, 62.0, -144.75156349598268)
+[17:26:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10749ms or 214 ticks behind
+[17:51:38] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[17:51:38] [Server thread/INFO]: TacoHardcore left the game
+[19:55:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7072ms or 141 ticks behind
+[20:19:45] [User Authenticator #71/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[20:19:46] [Server thread/INFO]: TacoHardcore[/187.244.104.57:60170] logged in with entity id 321275 at ([world]-53.92086193210369, 62.0, -221.11287294156097)
+[20:29:47] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[20:29:47] [Server thread/INFO]: TacoHardcore left the game
+[21:47:25] [User Authenticator #72/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[21:47:26] [Server thread/INFO]: TacoHardcore[/187.244.104.57:63451] logged in with entity id 323394 at ([world]-46.76329939717794, 62.0, -217.48718448463862)
+[21:48:21] [User Authenticator #73/INFO]: UUID of player ChekeMc is 385b0987-ad60-3223-8dce-844e7b47b482
+[21:48:21] [Server thread/INFO]: ChekeMc[/187.144.176.29:62470] logged in with entity id 323530 at ([world]-11.315713414638134, 92.0, -353.2694237623185)
+[21:51:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5016ms or 100 ticks behind
+[21:52:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13145ms or 262 ticks behind
+[21:53:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6004ms or 120 ticks behind
+[21:53:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5015ms or 100 ticks behind
+[21:54:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8428ms or 168 ticks behind
+[21:55:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5012ms or 100 ticks behind
+[21:56:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9425ms or 188 ticks behind
+[21:56:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9339ms or 186 ticks behind
+[21:57:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7489ms or 149 ticks behind
+[22:01:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
+[22:01:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5017ms or 100 ticks behind
+[22:03:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5656ms or 113 ticks behind
+[22:07:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5019ms or 100 ticks behind
+[22:07:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5011ms or 100 ticks behind
+[22:08:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5022ms or 100 ticks behind
+[22:09:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7528ms or 150 ticks behind
+[22:11:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5031ms or 100 ticks behind
+[22:12:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5015ms or 100 ticks behind
+[22:12:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7210ms or 144 ticks behind
+[22:15:39] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[22:15:39] [Server thread/INFO]: TacoHardcore left the game
+[22:23:45] [Server thread/INFO]: ChekeMc lost connection: Disconnected
+[22:23:45] [Server thread/INFO]: ChekeMc left the game
+[00:11:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7522ms or 150 ticks behind
+[00:47:14] [User Authenticator #74/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[00:47:15] [Server thread/INFO]: TacoHardcore[/187.244.104.57:47477] logged in with entity id 332258 at ([world]-73.2326591678068, 63.0, -301.54423498061965)
+[01:12:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5029ms or 100 ticks behind
+[01:13:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5059ms or 101 ticks behind
+[01:14:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7504ms or 150 ticks behind
+[01:14:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5471ms or 109 ticks behind
+[01:15:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[01:20:54] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[01:20:54] [Server thread/INFO]: TacoHardcore left the game
+[15:05:33] [User Authenticator #75/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[15:05:34] [Server thread/INFO]: TacoHardcore[/187.244.104.57:43215] logged in with entity id 348851 at ([world]11.875951516588486, 63.0, -296.91500033349155)
+[15:13:15] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[15:13:15] [Server thread/INFO]: TacoHardcore left the game
+[21:09:35] [User Authenticator #76/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[21:09:36] [Server thread/INFO]: TacoHardcore[/187.244.104.57:61809] logged in with entity id 354965 at ([world]7.183900510321802, 63.0, -280.3635922444557)
+[21:09:46] [Async Chat Thread - #5/INFO]: <TacoHardcore> as
+[21:12:58] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[21:12:58] [Server thread/INFO]: TacoHardcore left the game
+[22:34:02] [User Authenticator #77/INFO]: UUID of player ChekeMc is 385b0987-ad60-3223-8dce-844e7b47b482
+[22:34:03] [Server thread/INFO]: ChekeMc[/187.144.176.29:59647] logged in with entity id 356711 at ([world]-150.0786034087006, 57.0, -399.58953278987957)
+[22:40:25] [User Authenticator #78/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[22:40:26] [Server thread/INFO]: TacoHardcore[/187.244.104.57:11053] logged in with entity id 357965 at ([world]-3.9868099166380495, 63.0, -287.2446939243162)
+[22:41:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5035ms or 100 ticks behind
+[22:41:22] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[22:41:22] [Server thread/INFO]: Found that the dragon has been killed in this world already.
+[22:41:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5082ms or 101 ticks behind
+[22:42:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10643ms or 212 ticks behind
+[22:43:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6455ms or 129 ticks behind
+[23:00:04] [Server thread/WARN]: TacoHardcore moved too quickly! 35.587204100532745,-5.68195842764294,-2.5130102126496467
+[23:00:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5052ms or 101 ticks behind
+[23:00:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6317ms or 126 ticks behind
+[23:01:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5247ms or 104 ticks behind
+[23:01:22] [Server thread/WARN]: TacoHardcore moved wrongly!
+[23:01:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6387ms or 127 ticks behind
+[23:02:00] [Server thread/WARN]: Entity EntityPlayer['TacoHardcore'/357965, l='ServerLevel[world]', x=-58.41, y=85.77, z=-1.21](TacoHardcore at -58.41066322974487,85.76557965836408,-1.2062601560641077) left loaded chunk area
+[23:02:01] [Server thread/WARN]: Entity EntityPlayer['TacoHardcore'/357965, l='ServerLevel[world]', x=-62.11, y=84.48, z=-16.80](TacoHardcore at -62.10839571123283,84.48374943266168,-16.79903552082423) left loaded chunk area
+[23:02:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5761ms or 115 ticks behind
+[23:02:52] [Server thread/WARN]: Entity EntityPlayer['ChekeMc'/356711, l='ServerLevel[world]', x=8.33, y=131.57, z=95.33](ChekeMc at 8.330633890442723,131.56751155790698,95.32854098241606) left loaded chunk area
+[23:02:52] [Server thread/WARN]: Entity EntityPlayer['ChekeMc'/356711, l='ServerLevel[world]', x=9.11, y=130.15, z=79.73](ChekeMc at 9.110406412997026,130.15006734021375,79.73054274739489) left loaded chunk area
+[23:03:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5147ms or 102 ticks behind
+[23:04:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11463ms or 229 ticks behind
+[23:04:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6347ms or 126 ticks behind
+[23:05:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5084ms or 101 ticks behind
+[23:05:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6171ms or 123 ticks behind
+[23:06:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6529ms or 130 ticks behind
+[23:07:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5011ms or 100 ticks behind
+[23:08:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5016ms or 100 ticks behind
+[23:08:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7225ms or 144 ticks behind
+[23:09:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12703ms or 254 ticks behind
+[23:10:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8417ms or 168 ticks behind
+[23:10:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13625ms or 272 ticks behind
+[23:12:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7814ms or 156 ticks behind
+[23:12:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5059ms or 101 ticks behind
+[23:14:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5026ms or 100 ticks behind
+[23:16:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5017ms or 100 ticks behind
+[23:17:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
+[23:20:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5048ms or 100 ticks behind
+[23:33:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5018ms or 100 ticks behind
+[23:34:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12869ms or 257 ticks behind
+[23:35:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13423ms or 268 ticks behind
+[23:35:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9778ms or 195 ticks behind
+[23:38:18] [Server thread/WARN]: TacoHardcore moved too quickly! -0.2912255327483848,1.5346852741046604,17.609925960585798
+[23:38:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5048ms or 100 ticks behind
+[23:39:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19390ms or 387 ticks behind
+[23:40:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14294ms or 285 ticks behind
+[23:42:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5037ms or 100 ticks behind
+[23:42:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8288ms or 165 ticks behind
+[23:43:06] [Async Chat Thread - #6/INFO]: <TacoHardcore> 794 160
+[23:43:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5029ms or 100 ticks behind
+[23:43:48] [Async Chat Thread - #6/INFO]: <TacoHardcore> 99 20
+[23:44:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5023ms or 100 ticks behind
+[23:45:51] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[23:45:51] [Server thread/INFO]: TacoHardcore left the game
+[23:49:51] [User Authenticator #79/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[23:49:51] [Server thread/INFO]: TacoHardcore[/187.244.104.57:11587] logged in with entity id 386334 at ([world_nether]96.2811167187433, 128.0, 20.505865347963518)
+[23:57:20] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[23:57:20] [Server thread/INFO]: TacoHardcore left the game
+[00:00:31] [User Authenticator #80/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[00:00:32] [Server thread/INFO]: TacoHardcore[/187.244.104.57:12502] logged in with entity id 387313 at ([world_nether]-3.7985216307149843, 128.0, -38.70487115545495)
+[00:02:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5051ms or 101 ticks behind
+[00:03:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5021ms or 100 ticks behind
+[00:04:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5097ms or 101 ticks behind
+[00:05:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
+[00:07:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5016ms or 100 ticks behind
+[00:09:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5048ms or 100 ticks behind
+[00:09:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[00:10:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5033ms or 100 ticks behind
+[00:11:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5045ms or 100 ticks behind
+[00:12:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7985ms or 159 ticks behind
+[00:13:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5039ms or 100 ticks behind
+[00:14:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[00:15:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5290ms or 105 ticks behind
+[00:16:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5012ms or 100 ticks behind
+[00:16:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5028ms or 100 ticks behind
+[00:18:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[00:19:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
+[00:19:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6571ms or 131 ticks behind
+[00:20:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5018ms or 100 ticks behind
+[00:21:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6306ms or 126 ticks behind
+[00:22:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5035ms or 100 ticks behind
+[00:23:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5054ms or 101 ticks behind
+[00:24:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5027ms or 100 ticks behind
+[00:24:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5214ms or 104 ticks behind
+[00:25:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
+[00:29:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
+[00:29:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5418ms or 108 ticks behind
+[00:30:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
+[00:31:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5032ms or 100 ticks behind
+[00:32:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11264ms or 225 ticks behind
+[00:33:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5543ms or 110 ticks behind
+[00:33:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5023ms or 100 ticks behind
+[00:34:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5569ms or 111 ticks behind
+[00:35:10] [Server thread/INFO]: ChekeMc lost connection: Disconnected
+[00:35:10] [Server thread/INFO]: ChekeMc left the game
+[00:35:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[00:37:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5012ms or 100 ticks behind
+[00:38:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5045ms or 100 ticks behind
+[00:39:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
+[00:41:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[00:42:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5024ms or 100 ticks behind
+[00:43:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5038ms or 100 ticks behind
+[00:45:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
+[00:49:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5042ms or 100 ticks behind
+[00:49:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7121ms or 142 ticks behind
+[00:50:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6389ms or 127 ticks behind
+[00:51:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5019ms or 100 ticks behind
+[00:51:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[00:52:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5162ms or 103 ticks behind
+[00:53:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5015ms or 100 ticks behind
+[00:53:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7826ms or 156 ticks behind
+[00:54:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5027ms or 100 ticks behind
+[00:55:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8641ms or 172 ticks behind
+[00:55:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5538ms or 110 ticks behind
+[00:56:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
+[00:57:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
+[00:57:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10108ms or 202 ticks behind
+[00:59:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5020ms or 100 ticks behind
+[00:59:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5027ms or 100 ticks behind
+[01:00:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
+[01:01:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5191ms or 103 ticks behind
+[01:02:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5027ms or 100 ticks behind
+[01:02:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14893ms or 297 ticks behind
+[01:03:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17263ms or 345 ticks behind
+[01:04:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13956ms or 279 ticks behind
+[01:05:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16652ms or 333 ticks behind
+[01:05:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8481ms or 169 ticks behind
+[01:06:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13544ms or 270 ticks behind
+[01:07:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11627ms or 232 ticks behind
+[01:08:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15139ms or 302 ticks behind
+[01:08:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12248ms or 244 ticks behind
+[01:09:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18106ms or 362 ticks behind
+[01:10:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17214ms or 344 ticks behind
+[01:10:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9538ms or 190 ticks behind
+[01:11:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13032ms or 260 ticks behind
+[01:12:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14404ms or 288 ticks behind
+[01:13:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14639ms or 292 ticks behind
+[01:13:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15105ms or 302 ticks behind
+[01:14:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16402ms or 328 ticks behind
+[01:15:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20477ms or 409 ticks behind
+[01:16:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18345ms or 366 ticks behind
+[01:17:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12967ms or 259 ticks behind
+[01:17:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14731ms or 294 ticks behind
+[01:18:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14115ms or 282 ticks behind
+[01:19:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13954ms or 279 ticks behind
+[01:19:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11286ms or 225 ticks behind
+[01:20:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16610ms or 332 ticks behind
+[01:21:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18119ms or 362 ticks behind
+[01:22:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11414ms or 228 ticks behind
+[01:22:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9041ms or 180 ticks behind
+[01:23:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11563ms or 231 ticks behind
+[01:24:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9492ms or 189 ticks behind
+[01:25:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18216ms or 364 ticks behind
+[01:25:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16666ms or 333 ticks behind
+[01:26:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19603ms or 392 ticks behind
+[01:27:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14066ms or 281 ticks behind
+[01:28:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[01:28:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11338ms or 226 ticks behind
+[01:29:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12060ms or 241 ticks behind
+[01:30:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10765ms or 215 ticks behind
+[01:30:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14512ms or 290 ticks behind
+[01:31:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19964ms or 399 ticks behind
+[01:32:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17461ms or 349 ticks behind
+[01:33:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21301ms or 426 ticks behind
+[01:34:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14449ms or 288 ticks behind
+[01:34:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11098ms or 221 ticks behind
+[01:35:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21558ms or 431 ticks behind
+[01:36:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17291ms or 345 ticks behind
+[01:37:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20537ms or 410 ticks behind
+[01:38:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14447ms or 288 ticks behind
+[01:38:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10044ms or 200 ticks behind
+[01:39:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8828ms or 176 ticks behind
+[01:41:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[01:42:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6761ms or 135 ticks behind
+[01:43:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5027ms or 100 ticks behind
+[01:43:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[01:44:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5085ms or 101 ticks behind
+[01:45:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5183ms or 103 ticks behind
+[01:46:17] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[01:46:18] [Server thread/INFO]: TacoHardcore left the game
+[01:46:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5724ms or 114 ticks behind
+[02:07:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5610ms or 112 ticks behind
+[02:13:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5017ms or 100 ticks behind
+[02:50:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5019ms or 100 ticks behind
+[04:09:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11265ms or 225 ticks behind
+[11:11:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5354ms or 107 ticks behind
+[11:52:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5027ms or 100 ticks behind
+[12:21:13] [User Authenticator #81/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[12:21:14] [Server thread/INFO]: TacoHardcore[/187.244.104.57:4061] logged in with entity id 435376 at ([world]-52.86061077769711, 126.5, -237.92238683531463)
+[12:22:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5017ms or 100 ticks behind
+[12:22:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9525ms or 190 ticks behind
+[12:23:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11317ms or 226 ticks behind
+[12:24:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6733ms or 134 ticks behind
+[12:25:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5024ms or 100 ticks behind
+[12:26:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5046ms or 100 ticks behind
+[12:26:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6855ms or 137 ticks behind
+[12:27:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5024ms or 100 ticks behind
+[12:28:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5024ms or 100 ticks behind
+[12:29:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
+[12:30:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5467ms or 109 ticks behind
+[12:31:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
+[12:31:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5058ms or 101 ticks behind
+[12:32:05] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[12:32:05] [Server thread/INFO]: TacoHardcore left the game
+[12:44:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5451ms or 109 ticks behind
+[14:24:19] [User Authenticator #82/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[14:24:20] [Server thread/INFO]: TacoHardcore[/187.244.104.57:52303] logged in with entity id 441483 at ([world]795.4052248647129, 184.0, 163.51249998807907)
+[14:24:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10068ms or 201 ticks behind
+[14:24:45] [Async Chat Thread - #7/INFO]: <TacoHardcore> asd
+[14:25:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6707ms or 134 ticks behind
+[14:25:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5032ms or 100 ticks behind
+[14:26:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11898ms or 237 ticks behind
+[14:27:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10661ms or 213 ticks behind
+[14:28:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
+[14:30:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5018ms or 100 ticks behind
+[14:31:51] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[14:31:51] [Server thread/INFO]: TacoHardcore left the game
+[15:23:13] [User Authenticator #83/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[15:23:14] [Server thread/INFO]: TacoHardcore[/187.244.104.57:21354] logged in with entity id 445296 at ([world]795.4917259127507, 184.0, 163.3834900411792)
+[15:23:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[15:24:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12811ms or 256 ticks behind
+[15:25:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5031ms or 100 ticks behind
+[15:26:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5066ms or 101 ticks behind
+[15:27:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
+[15:28:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5927ms or 118 ticks behind
+[15:28:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6703ms or 134 ticks behind
+[15:29:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10305ms or 206 ticks behind
+[15:30:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[15:31:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5011ms or 100 ticks behind
+[15:32:16] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[15:32:16] [Server thread/INFO]: TacoHardcore left the game
+[16:59:31] [User Authenticator #84/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[16:59:32] [Server thread/INFO]: TacoHardcore[/187.244.104.57:62767] logged in with entity id 450908 at ([world]795.3165336261793, 184.0, 163.51249998807907)
+[16:59:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5400ms or 108 ticks behind
+[17:00:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6618ms or 132 ticks behind
+[17:00:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7352ms or 147 ticks behind
+[17:01:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5060ms or 101 ticks behind
+[17:03:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5018ms or 100 ticks behind
+[17:04:21] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[17:04:21] [Server thread/INFO]: TacoHardcore left the game
+[18:30:33] [User Authenticator #85/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[18:30:33] [Server thread/INFO]: TacoHardcore[/187.244.104.57:50749] logged in with entity id 453652 at ([world]808.6060605554225, 43.90561026356215, 143.5398149592464)
+[18:31:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5030ms or 100 ticks behind
+[18:31:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5761ms or 115 ticks behind
+[18:33:15] [User Authenticator #86/INFO]: UUID of player ChekeMc is 385b0987-ad60-3223-8dce-844e7b47b482
+[18:33:16] [Server thread/INFO]: ChekeMc[/187.144.176.29:52329] logged in with entity id 454502 at ([world]795.3000000119209, 184.0, 163.30000001192093)
+[18:33:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5048ms or 100 ticks behind
+[18:33:56] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[18:33:56] [Server thread/INFO]: TacoHardcore left the game
+[18:34:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
+[18:35:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5028ms or 100 ticks behind
+[18:36:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5033ms or 100 ticks behind
+[18:37:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5034ms or 100 ticks behind
+[18:40:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[18:41:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5015ms or 100 ticks behind
+[18:42:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
+[18:42:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5840ms or 116 ticks behind
+[18:44:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5025ms or 100 ticks behind
+[18:45:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5020ms or 100 ticks behind
+[18:46:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5030ms or 100 ticks behind
+[18:48:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
+[18:49:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5050ms or 101 ticks behind
+[18:52:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5019ms or 100 ticks behind
+[18:54:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5016ms or 100 ticks behind
+[18:56:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5030ms or 100 ticks behind
+[18:57:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5015ms or 100 ticks behind
+[18:58:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5017ms or 100 ticks behind
+[19:01:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[19:04:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
+[19:05:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5021ms or 100 ticks behind
+[19:08:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5021ms or 100 ticks behind
+[19:10:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5018ms or 100 ticks behind
+[19:14:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5020ms or 100 ticks behind
+[19:18:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5048ms or 100 ticks behind
+[19:24:38] [Server thread/INFO]: ChekeMc lost connection: Disconnected
+[19:24:38] [Server thread/INFO]: ChekeMc left the game
+[13:18:56] [User Authenticator #87/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[13:18:57] [Server thread/INFO]: TacoHardcore[/187.244.104.57:40008] logged in with entity id 492303 at ([world]-44.71125447225233, 63.5, -223.57417803302818)
+[13:19:55] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[13:19:55] [Server thread/INFO]: TacoHardcore left the game
+[13:23:06] [User Authenticator #88/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[13:23:06] [Server thread/INFO]: TacoHardcore[/187.244.104.57:9426] logged in with entity id 492644 at ([world]0.9992543214442917, 66.0, -168.80913115856274)
+[13:30:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5047ms or 100 ticks behind
+[13:32:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5138ms or 102 ticks behind
+[13:32:58] [User Authenticator #89/INFO]: UUID of player JOSUE9675 is 1c7da933-9746-39ba-9cb5-c4c5a602d47c
+[13:32:58] [Server thread/INFO]: JOSUE9675[/187.195.33.164:50822] logged in with entity id 494423 at ([world_nether]139.77746288207732, 61.0, -237.38428719582382)
+[13:33:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
+[13:33:58] [Server thread/INFO]: JOSUE9675 lost connection: Disconnected
+[13:33:58] [Server thread/INFO]: JOSUE9675 left the game
+[13:34:37] [Server thread/WARN]: TacoHardcore moved too quickly! -5.5276315779017295,-4.7551033329811645,28.197513185616515
+[13:34:55] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[13:34:55] [Server thread/INFO]: TacoHardcore left the game
+[15:38:03] [User Authenticator #90/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[15:38:04] [Server thread/INFO]: TacoHardcore[/187.244.104.57:57387] logged in with entity id 496978 at ([world]32.97162722923132, 63.0, -248.16350643433918)
+[15:44:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5017ms or 100 ticks behind
+[15:49:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[15:50:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5028ms or 100 ticks behind
+[15:51:32] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[15:51:32] [Server thread/INFO]: TacoHardcore left the game
+[18:05:10] [User Authenticator #91/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[18:05:11] [Server thread/INFO]: TacoHardcore[/187.244.104.57:45603] logged in with entity id 502417 at ([world]0.5, 63.0, -196.5)
+[18:07:31] [Async Chat Thread - #8/INFO]: <TacoHardcore> 0 -34
+[18:45:04] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[18:45:04] [Server thread/INFO]: TacoHardcore left the game
+[19:29:37] [User Authenticator #92/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[19:29:37] [Server thread/INFO]: TacoHardcore[/187.244.104.57:6820] logged in with entity id 506505 at ([world_nether]-3.055707718247668, 128.0, -35.38702274143564)
+[19:36:54] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[19:36:54] [Server thread/INFO]: TacoHardcore left the game
+[20:20:03] [User Authenticator #93/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[20:20:04] [Server thread/INFO]: TacoHardcore[/187.244.104.57:43042] logged in with entity id 507657 at ([world_nether]0.4115101974494826, 128.0, -34.79520598644962)
+[21:15:04] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[21:15:04] [Server thread/INFO]: TacoHardcore left the game
+[21:45:47] [User Authenticator #94/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[21:45:48] [Server thread/INFO]: TacoHardcore[/187.244.104.57:55820] logged in with entity id 512644 at ([world]-60.707643349743265, 63.0, -213.39567784094223)
+[22:46:19] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[22:46:19] [Server thread/INFO]: TacoHardcore left the game
+[22:46:22] [User Authenticator #95/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[22:46:23] [Server thread/INFO]: TacoHardcore[/187.244.104.57:62810] logged in with entity id 517777 at ([world_nether]2.7512570770180473, 127.0, -35.454394287676536)
+[22:47:30] [User Authenticator #96/INFO]: UUID of player JOSUE9675 is 1c7da933-9746-39ba-9cb5-c4c5a602d47c
+[22:47:30] [Server thread/INFO]: JOSUE9675[/187.195.33.164:55691] logged in with entity id 517858 at ([world_nether]79.93023553814847, 70.0, -265.69999998807907)
+[22:49:48] [Server thread/INFO]: JOSUE9675 was slain by Piglin
+[22:50:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
+[22:50:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5859ms or 117 ticks behind
+[22:51:01] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[22:51:01] [Server thread/INFO]: TacoHardcore left the game
+[22:51:06] [Server thread/INFO]: JOSUE9675 was shot by Skeleton
+[22:51:45] [Server thread/INFO]: JOSUE9675 was shot by Skeleton
+[22:52:49] [Server thread/INFO]: JOSUE9675 was slain by Zombie
+[22:53:32] [User Authenticator #97/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[22:53:33] [Server thread/INFO]: TacoHardcore[/187.244.104.57:42023] logged in with entity id 518916 at ([world_nether]121.2954562486633, 70.0, 245.21137940056738)
+[22:53:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5037ms or 100 ticks behind
+[22:54:07] [Server thread/INFO]: JOSUE9675 lost connection: Disconnected
+[22:54:07] [Server thread/INFO]: JOSUE9675 left the game
+[22:55:09] [Server thread/WARN]: TacoHardcore moved too quickly! 5.847597545767059,1.0244240882136921,14.553889782461852
+[22:57:14] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[22:57:14] [Server thread/INFO]: TacoHardcore left the game
+[23:29:31] [User Authenticator #98/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[23:29:31] [Server thread/INFO]: TacoHardcore[/187.244.104.57:17591] logged in with entity id 520033 at ([world_nether]0.9294181787387414, 106.47011670191577, -35.128800150172886)
+[23:30:15] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[23:30:15] [Server thread/INFO]: TacoHardcore left the game
+[23:42:47] [User Authenticator #99/INFO]: UUID of player JOSUE9675 is 1c7da933-9746-39ba-9cb5-c4c5a602d47c
+[23:42:48] [Server thread/INFO]: JOSUE9675[/187.195.33.164:56421] logged in with entity id 520269 at ([world]139.12823137182798, 71.0, -282.7013909795683)
+[23:42:48] [User Authenticator #100/INFO]: UUID of player SoyAndyy is 5013287d-0a38-331a-8e01-2e68ed796aa9
+[23:42:48] [Server thread/INFO]: SoyAndyy[/189.217.73.18:60629] logged in with entity id 520270 at ([world]1.8758409988113502, 64.26420488659997, -207.10830152147645)
+[23:42:52] [User Authenticator #101/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[23:42:52] [Server thread/INFO]: TacoHardcore[/187.244.104.57:37377] logged in with entity id 520345 at ([world_nether]-1.5779740367002157, 125.0, -37.60261584698739)
+[23:42:57] [User Authenticator #102/INFO]: UUID of player Elfer2998 is a1d82b30-e784-3eb9-acf2-c63748f35aa3
+[23:42:57] [Server thread/INFO]: Elfer2998[/187.173.170.49:57491] logged in with entity id 520354 at ([world]-20.5, 63.0, -230.5)
+[23:43:03] [Server thread/INFO]: Elfer2998 lost connection: Disconnected
+[23:43:03] [Server thread/INFO]: Elfer2998 left the game
+[23:43:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5021ms or 100 ticks behind
+[23:43:10] [User Authenticator #103/INFO]: UUID of player ERMM22 is 7d36429c-3903-33ae-be19-2aad0ddcc18d
+[23:43:11] [Server thread/INFO]: ERMM22[/177.240.154.84:53512] logged in with entity id 520426 at ([world]114.30000001192087, 72.0, -372.1753902435722)
+[23:43:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7974ms or 159 ticks behind
+[23:43:46] [User Authenticator #104/INFO]: UUID of player fernando is 892287b9-d797-33fa-ab17-5a95fb1e3d0b
+[23:43:46] [Server thread/INFO]: fernando[/187.173.170.49:57622] logged in with entity id 520505 at ([world]-19.89939836223888, 64.0, -266.842918278887)
+[23:44:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5934ms or 118 ticks behind
+[23:44:44] [Server thread/INFO]: fernando lost connection: Disconnected
+[23:44:44] [Server thread/INFO]: fernando left the game
+[23:45:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[23:45:25] [User Authenticator #105/INFO]: UUID of player fernando is 892287b9-d797-33fa-ab17-5a95fb1e3d0b
+[23:45:25] [Server thread/INFO]: fernando[/187.173.170.49:57740] logged in with entity id 520852 at ([world]1.004239622253997, 65.0, -185.68875357248749)
+[23:45:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12002ms or 240 ticks behind
+[23:46:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9367ms or 187 ticks behind
+[23:47:03] [Server thread/INFO]: fernando lost connection: Disconnected
+[23:47:03] [Server thread/INFO]: fernando left the game
+[23:47:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18332ms or 366 ticks behind
+[23:47:38] [User Authenticator #106/WARN]: [LuckPerms] LuckPerms already has data for player 'Fernando' - but this data is stored under a different UUID.
+[23:47:38] [User Authenticator #106/WARN]: [LuckPerms] 'Fernando' has previously used the unique ids [892287b9-d797-33fa-ab17-5a95fb1e3d0b] but is now connecting with '41a424f0-1252-3241-a1f4-ff5c35dc40c4'
+[23:47:38] [User Authenticator #106/WARN]: [LuckPerms] The UUID the player is connecting with now is NOT Mojang-assigned (type 3). This implies that THIS server is not authenticating correctly, but one (or more) of the other servers/proxies in the network are.
+[23:47:38] [User Authenticator #106/WARN]: [LuckPerms] If you're using BungeeCord/Velocity, please ensure that IP-Forwarding is setup correctly on all of your backend servers!
+[23:47:38] [User Authenticator #106/WARN]: [LuckPerms] See here for more info: https://github.com/lucko/LuckPerms/wiki/Network-Installation#pre-setup
+[23:47:38] [User Authenticator #106/INFO]: UUID of player Fernando is 41a424f0-1252-3241-a1f4-ff5c35dc40c4
+[23:47:39] [Server thread/INFO]: Fernando[/187.173.170.49:57866] logged in with entity id 522202 at ([world]-22.5, 63.0, -225.5)
+[23:47:58] [Server thread/INFO]: Fernando lost connection: Disconnected
+[23:47:58] [Server thread/INFO]: Fernando left the game
+[23:48:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11330ms or 226 ticks behind
+[23:48:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5852ms or 117 ticks behind
+[23:48:40] [User Authenticator #107/WARN]: [LuckPerms] LuckPerms already has data for player 'fernando' - but this data is stored under a different UUID.
+[23:48:40] [User Authenticator #107/WARN]: [LuckPerms] 'fernando' has previously used the unique ids [41a424f0-1252-3241-a1f4-ff5c35dc40c4] but is now connecting with '892287b9-d797-33fa-ab17-5a95fb1e3d0b'
+[23:48:40] [User Authenticator #107/WARN]: [LuckPerms] The UUID the player is connecting with now is NOT Mojang-assigned (type 3). This implies that THIS server is not authenticating correctly, but one (or more) of the other servers/proxies in the network are.
+[23:48:40] [User Authenticator #107/WARN]: [LuckPerms] If you're using BungeeCord/Velocity, please ensure that IP-Forwarding is setup correctly on all of your backend servers!
+[23:48:40] [User Authenticator #107/WARN]: [LuckPerms] See here for more info: https://github.com/lucko/LuckPerms/wiki/Network-Installation#pre-setup
+[23:48:40] [User Authenticator #107/INFO]: UUID of player fernando is 892287b9-d797-33fa-ab17-5a95fb1e3d0b
+[23:48:41] [Server thread/INFO]: fernando[/187.173.170.49:57975] logged in with entity id 522484 at ([world]-4.385770101601611, 66.0, -176.61088870042386)
+[23:49:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9747ms or 194 ticks behind
+[23:49:55] [User Authenticator #108/INFO]: UUID of player Borreg is fe712ada-efb0-32a0-9e53-faac7806a35b
+[23:49:55] [Server thread/INFO]: Borreg[/177.240.130.166:7274] logged in with entity id 522752 at ([world]-35.5, 63.0, -219.5)
+[23:50:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5034ms or 100 ticks behind
+[23:50:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9512ms or 190 ticks behind
+[23:51:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6649ms or 132 ticks behind
+[23:52:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12795ms or 255 ticks behind
+[23:52:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12531ms or 250 ticks behind
+[23:53:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5021ms or 100 ticks behind
+[23:54:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5018ms or 100 ticks behind
+[23:54:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[23:55:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5135ms or 102 ticks behind
+[23:56:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5034ms or 100 ticks behind
+[23:56:56] [Server thread/WARN]: TacoHardcore moved wrongly!
+[23:57:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9440ms or 188 ticks behind
+[23:57:50] [Server thread/INFO]: fernando fell from a high place
+[23:57:52] [Server thread/INFO]: Borreg hit the ground too hard
+[23:57:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6941ms or 138 ticks behind
+[23:58:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9037ms or 180 ticks behind
+[23:59:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5058ms or 101 ticks behind
+[23:59:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5028ms or 100 ticks behind
+[00:00:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5032ms or 100 ticks behind
+[00:01:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6721ms or 134 ticks behind
+[00:02:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7291ms or 145 ticks behind
+[00:02:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12462ms or 249 ticks behind
+[00:03:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8815ms or 176 ticks behind
+[00:04:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5848ms or 116 ticks behind
+[00:04:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8832ms or 176 ticks behind
+[00:05:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5021ms or 100 ticks behind
+[00:05:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5287ms or 105 ticks behind
+[00:06:36] [Server thread/INFO]: Borreg lost connection: Disconnected
+[00:06:36] [Server thread/INFO]: Borreg left the game
+[00:06:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8954ms or 179 ticks behind
+[00:06:41] [User Authenticator #109/INFO]: UUID of player Borreg is fe712ada-efb0-32a0-9e53-faac7806a35b
+[00:06:41] [Server thread/INFO]: Borreg[/177.240.130.166:1088] logged in with entity id 526781 at ([world]73.05361782153543, 67.0, -293.2576267884535)
+[00:07:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6279ms or 125 ticks behind
+[00:07:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5376ms or 107 ticks behind
+[00:09:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5031ms or 100 ticks behind
+[00:11:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
+[00:12:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8219ms or 164 ticks behind
+[00:14:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6668ms or 133 ticks behind
+[00:14:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5432ms or 108 ticks behind
+[00:15:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5041ms or 100 ticks behind
+[00:16:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5058ms or 101 ticks behind
+[00:16:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5612ms or 112 ticks behind
+[00:17:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
+[00:18:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5626ms or 112 ticks behind
+[00:18:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5020ms or 100 ticks behind
+[00:19:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
+[00:20:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[00:21:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5007ms or 100 ticks behind
+[00:24:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[00:25:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[00:26:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5328ms or 106 ticks behind
+[00:27:46] [Server thread/INFO]: Borreg has made the advancement [Diamonds!]
+[00:27:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5035ms or 100 ticks behind
+[00:28:07] [Server thread/INFO]: ERMM22 has made the advancement [Diamonds!]
+[00:28:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5035ms or 100 ticks behind
+[00:31:41] [Server thread/INFO]: fernando lost connection: Disconnected
+[00:31:41] [Server thread/INFO]: fernando left the game
+[00:31:43] [Server thread/INFO]: Borreg lost connection: Disconnected
+[00:31:43] [Server thread/INFO]: Borreg left the game
+[00:31:44] [Server thread/INFO]: JOSUE9675 lost connection: Disconnected
+[00:31:44] [Server thread/INFO]: JOSUE9675 left the game
+[00:31:45] [Server thread/INFO]: SoyAndyy lost connection: Disconnected
+[00:31:45] [Server thread/INFO]: SoyAndyy left the game
+[00:31:48] [Server thread/INFO]: ERMM22 lost connection: Disconnected
+[00:31:48] [Server thread/INFO]: ERMM22 left the game
+[00:31:49] [User Authenticator #110/INFO]: UUID of player SoyAndyy is 5013287d-0a38-331a-8e01-2e68ed796aa9
+[00:31:49] [Server thread/INFO]: SoyAndyy[/189.217.73.18:46764] logged in with entity id 530635 at ([world]61.300000011920936, 83.0, -290.30000001192093)
+[00:31:49] [User Authenticator #111/INFO]: UUID of player JOSUE9675 is 1c7da933-9746-39ba-9cb5-c4c5a602d47c
+[00:31:50] [Server thread/INFO]: JOSUE9675[/187.195.33.164:56672] logged in with entity id 530644 at ([world]66.0263773926741, 83.0, -306.5386010486476)
+[00:31:50] [User Authenticator #112/INFO]: UUID of player fernando is 892287b9-d797-33fa-ab17-5a95fb1e3d0b
+[00:31:50] [Server thread/INFO]: fernando[/187.173.170.49:58115] logged in with entity id 530651 at ([world]62.62729585021236, 83.0, -302.3990688754094)
+[00:31:51] [User Authenticator #113/INFO]: UUID of player Borreg is fe712ada-efb0-32a0-9e53-faac7806a35b
+[00:31:52] [Server thread/INFO]: Borreg[/177.240.130.166:43118] logged in with entity id 530707 at ([world]77.65692818480755, 83.0, -295.87339564461115)
+[00:31:52] [User Authenticator #114/INFO]: UUID of player ERMM22 is 7d36429c-3903-33ae-be19-2aad0ddcc18d
+[00:31:52] [Server thread/INFO]: ERMM22[/177.240.154.84:61207] logged in with entity id 530709 at ([world]76.30632761106834, 83.0, -306.1360819667566)
+[00:37:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
+[00:38:32] [Server thread/INFO]: fernando lost connection: Disconnected
+[00:38:32] [Server thread/INFO]: fernando left the game
+[00:38:59] [Server thread/INFO]: JOSUE9675 lost connection: Disconnected
+[00:38:59] [Server thread/INFO]: JOSUE9675 left the game
+[00:40:15] [Server thread/INFO]: Borreg lost connection: Disconnected
+[00:40:15] [Server thread/INFO]: Borreg left the game
+[00:40:24] [Server thread/INFO]: ERMM22 lost connection: Disconnected
+[00:40:24] [Server thread/INFO]: ERMM22 left the game
+[00:43:49] [Server thread/WARN]: SoyAndyy moved too quickly! 11.126792110385537,17.420610961099825,-28.784074151902303
+[00:49:42] [Server thread/WARN]: TacoHardcore moved wrongly!
+[01:01:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5811ms or 116 ticks behind
+[01:06:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5913ms or 118 ticks behind
+[01:07:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[01:08:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5317ms or 106 ticks behind
+[01:12:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5028ms or 100 ticks behind
+[01:13:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11009ms or 220 ticks behind
+[01:13:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9096ms or 181 ticks behind
+[01:14:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5700ms or 114 ticks behind
+[01:15:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5012ms or 100 ticks behind
+[01:15:55] [Server thread/INFO]: SoyAndyy lost connection: Disconnected
+[01:15:55] [Server thread/INFO]: SoyAndyy left the game
+[01:16:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9488ms or 189 ticks behind
+[01:17:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
+[01:18:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7235ms or 144 ticks behind
+[01:18:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6309ms or 126 ticks behind
+[01:19:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5909ms or 118 ticks behind
+[01:19:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5256ms or 105 ticks behind
+[01:23:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5043ms or 100 ticks behind
+[01:24:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[01:25:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9712ms or 194 ticks behind
+[01:26:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10591ms or 211 ticks behind
+[01:27:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5020ms or 100 ticks behind
+[01:27:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8045ms or 160 ticks behind
+[01:28:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
+[01:29:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5022ms or 100 ticks behind
+[01:30:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
+[01:31:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[01:31:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
+[01:32:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7208ms or 144 ticks behind
+[01:33:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7492ms or 149 ticks behind
+[01:36:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
+[01:36:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7910ms or 158 ticks behind
+[01:37:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6310ms or 126 ticks behind
+[01:39:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5011ms or 100 ticks behind
+[01:40:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[01:42:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
+[01:43:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5081ms or 101 ticks behind
+[01:44:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7837ms or 156 ticks behind
+[01:45:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5016ms or 100 ticks behind
+[01:45:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
+[01:46:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5023ms or 100 ticks behind
+[01:47:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9131ms or 182 ticks behind
+[01:47:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10790ms or 215 ticks behind
+[01:48:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14077ms or 281 ticks behind
+[01:49:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5700ms or 114 ticks behind
+[01:49:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8839ms or 176 ticks behind
+[01:50:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12838ms or 256 ticks behind
+[01:51:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5028ms or 100 ticks behind
+[01:53:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5065ms or 101 ticks behind
+[01:53:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12463ms or 249 ticks behind
+[01:54:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5057ms or 101 ticks behind
+[01:55:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7450ms or 149 ticks behind
+[01:55:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6987ms or 139 ticks behind
+[01:56:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7825ms or 156 ticks behind
+[01:57:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6812ms or 136 ticks behind
+[01:57:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9762ms or 195 ticks behind
+[01:58:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5018ms or 100 ticks behind
+[01:59:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6873ms or 137 ticks behind
+[02:00:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12176ms or 243 ticks behind
+[02:00:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12709ms or 254 ticks behind
+[02:01:25] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[02:01:25] [Server thread/INFO]: TacoHardcore left the game
+[02:03:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
+[02:06:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5007ms or 100 ticks behind
+[02:07:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6593ms or 131 ticks behind
+[02:08:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
+[02:08:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5304ms or 106 ticks behind
+[02:09:14] [User Authenticator #115/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[02:09:15] [Server thread/INFO]: TacoHardcore[/187.244.104.57:4309] logged in with entity id 546633 at ([world]59.85365930685562, 63.0, -250.48213934107162)
+[02:09:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5346ms or 106 ticks behind
+[02:10:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5537ms or 110 ticks behind
+[02:10:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20103ms or 402 ticks behind
+[02:11:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10428ms or 208 ticks behind
+[02:12:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5057ms or 101 ticks behind
+[02:13:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13559ms or 271 ticks behind
+[02:13:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6510ms or 130 ticks behind
+[02:14:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5028ms or 100 ticks behind
+[02:14:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5634ms or 112 ticks behind
+[02:15:31] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[02:15:31] [Server thread/INFO]: TacoHardcore left the game
+[02:15:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5058ms or 101 ticks behind
+[02:30:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7654ms or 153 ticks behind
+[03:00:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[03:09:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
+[11:41:04] [User Authenticator #116/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[11:41:04] [Server thread/INFO]: TacoHardcore[/187.244.104.57:19904] logged in with entity id 554906 at ([world]9.565229907479228, 64.0, -294.2853380682583)
+[11:41:23] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[11:41:23] [Server thread/INFO]: TacoHardcore left the game
+[11:41:59] [User Authenticator #117/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[11:42:00] [Server thread/INFO]: TacoHardcore[/187.244.104.57:53998] logged in with entity id 554979 at ([world]9.565229907479228, 64.0, -294.2853380682583)
+[11:46:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5052ms or 101 ticks behind
+[11:49:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5056ms or 101 ticks behind
+[11:49:10] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[11:49:10] [Server thread/INFO]: TacoHardcore left the game
+[11:49:38] [User Authenticator #118/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[11:49:40] [Server thread/INFO]: TacoHardcore[/187.244.104.57:15290] logged in with entity id 556098 at ([world]795.6999999880791, 184.0, 163.30000001192093)
+[11:50:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5020ms or 100 ticks behind
+[11:50:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13432ms or 268 ticks behind
+[11:51:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10439ms or 208 ticks behind
+[11:52:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
+[11:52:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6658ms or 133 ticks behind
+[11:53:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5036ms or 100 ticks behind
+[11:54:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[11:54:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8213ms or 164 ticks behind
+[11:55:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5036ms or 100 ticks behind
+[11:56:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[11:57:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7756ms or 155 ticks behind
+[11:57:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12856ms or 257 ticks behind
+[11:58:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5049ms or 100 ticks behind
+[11:59:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
+[12:00:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5032ms or 100 ticks behind
+[12:00:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6149ms or 122 ticks behind
+[12:01:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10009ms or 200 ticks behind
+[12:02:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7186ms or 143 ticks behind
+[12:02:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5020ms or 100 ticks behind
+[12:03:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15600ms or 312 ticks behind
+[12:04:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6828ms or 136 ticks behind
+[12:04:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10139ms or 202 ticks behind
+[12:05:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7263ms or 145 ticks behind
+[12:06:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10588ms or 211 ticks behind
+[12:06:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8100ms or 162 ticks behind
+[12:07:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5016ms or 100 ticks behind
+[12:08:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7802ms or 156 ticks behind
+[12:09:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10095ms or 201 ticks behind
+[12:09:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7262ms or 145 ticks behind
+[12:11:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
+[12:49:30] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[12:49:30] [Server thread/INFO]: TacoHardcore left the game
+[13:09:11] [User Authenticator #119/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[13:09:11] [Server thread/INFO]: TacoHardcore[/187.244.104.57:61754] logged in with entity id 568145 at ([world]13.642434474749633, 63.0, -300.6498613159762)
+[13:25:30] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[13:25:30] [Server thread/INFO]: TacoHardcore left the game
+[13:26:32] [User Authenticator #120/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[13:26:33] [Server thread/INFO]: TacoHardcore[/187.244.104.57:25271] logged in with entity id 569912 at ([world]12.74363803291663, 63.0, -296.69999998807907)
+[13:26:44] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[13:26:44] [Server thread/INFO]: TacoHardcore left the game
+[13:26:45] [User Authenticator #121/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[13:26:46] [Server thread/INFO]: TacoHardcore[/187.244.104.57:40627] logged in with entity id 569942 at ([world]13.877350902511035, 63.0, -299.8642491316248)
+[13:39:32] [Server thread/INFO]: TacoHardcore lost connection: Disconnected
+[13:39:32] [Server thread/INFO]: TacoHardcore left the game
+[14:08:14] [User Authenticator #122/INFO]: UUID of player TacoHardcore is c6a2df23-371d-3a22-ba24-bd040a594e7d
+[14:08:15] [Server thread/INFO]: TacoHardcore[/187.244.104.57:50743] logged in with entity id 571637 at ([world]66.59092678172011, 78.5, -288.00716556292514)
+[14:29:01] [User Authenticator #123/INFO]: UUID of player drekblood is 71f1a7d9-df58-3b48-af17-74e0f2ea7b09
+[14:29:02] [Server thread/INFO]: drekblood[/187.188.33.241:32538] logged in with entity id 574344 at ([world]114.30000001192091, 72.0, -372.87661036738433)
+[14:29:04] [Async Chat Thread - #9/INFO]: <TacoHardcore> dreeeeeeeeeeeek
+[14:29:07] [Async Chat Thread - #9/INFO]: <TacoHardcore> hoooolaaaa
+[14:29:09] [Async Chat Thread - #9/INFO]: <TacoHardcore> checa esto
+[14:29:11] [Async Chat Thread - #9/INFO]: <drekblood> Holaaa
+[14:29:24] [Async Chat Thread - #9/INFO]: <TacoHardcore> ontas
+[14:29:33] [Async Chat Thread - #9/INFO]: <drekblood> en los caballos :o
+[14:29:45] [Async Chat Thread - #9/INFO]: <TacoHardcore> no te ve
+[14:29:46] [Async Chat Thread - #9/INFO]: <TacoHardcore> o
+[14:29:54] [Async Chat Thread - #9/INFO]: <TacoHardcore> checa
+[14:30:01] [Async Chat Thread - #9/INFO]: <TacoHardcore> no andas en el trabajo?
+[14:30:06] [Async Chat Thread - #9/INFO]: <drekblood> si
+[14:30:10] [Async Chat Thread - #9/INFO]: <drekblood> pero no hay pedo que entre un rato
+[14:30:12] [Async Chat Thread - #9/INFO]: <TacoHardcore> jajajja
+[14:30:12] [Async Chat Thread - #9/INFO]: <TacoHardcore> vavav
+[14:30:27] [Async Chat Thread - #9/INFO]: <TacoHardcore> es el angel :D
+[14:30:35] [Async Chat Thread - #9/INFO]: <TacoHardcore> estoy haciendo la bandera de México
+[14:30:36] [Async Chat Thread - #9/INFO]: <TacoHardcore> con beacons
+[14:30:37] [Async Chat Thread - #9/INFO]: <drekblood> no mss parece creativo jajaja
+[14:30:39] [Async Chat Thread - #9/INFO]: <TacoHardcore> solo me falta uno
+[14:30:50] [Async Chat Thread - #9/INFO]: <drekblood> un faro mas?
+[14:30:50] [Async Chat Thread - #9/INFO]: <TacoHardcore> y mira
+[14:30:52] [Async Chat Thread - #9/INFO]: <TacoHardcore> si
+[14:31:00] [Async Chat Thread - #9/INFO]: <TacoHardcore> ayer andabamos jugando
+[14:31:03] [Async Chat Thread - #9/INFO]: <TacoHardcore> casi todos
+[14:31:11] [Async Chat Thread - #9/INFO]: <TacoHardcore> y se me ocurrió una idea
+[14:31:15] [Async Chat Thread - #9/INFO]: <drekblood> ya no pude entrar llegue tarde como 00:30
+[14:31:19] [Async Chat Thread - #9/INFO]: <TacoHardcore> chale
+[14:31:22] [Async Chat Thread - #9/INFO]: <TacoHardcore> aún seguiamos
+[14:31:23] [Async Chat Thread - #9/INFO]: <drekblood> solo estas tu esme y andy
+[14:31:27] [Async Chat Thread - #9/INFO]: <TacoHardcore> ah es verdad
+[14:31:32] [Async Chat Thread - #9/INFO]: <TacoHardcore> pero le seguimos como a las 2
+[14:31:33] [Async Chat Thread - #9/INFO]: <TacoHardcore> mira
+[14:31:37] [Async Chat Thread - #9/INFO]: <TacoHardcore> topas fall guys
+[14:31:38] [Async Chat Thread - #9/INFO]: <TacoHardcore> ?
+[14:31:40] [Async Chat Thread - #9/INFO]: <drekblood> ke es ejoo
+[14:31:45] [Async Chat Thread - #9/INFO]: <TacoHardcore> que hay un nivel en el que se cae el suelo?
+[14:31:48] [Async Chat Thread - #9/INFO]: <drekblood> see lo compre y solo lo jugue una vez xD
+[14:31:58] [Async Chat Thread - #9/INFO]: <TacoHardcore> es similar
+[14:31:59] [Async Chat Thread - #9/INFO]: <TacoHardcore> sube
+[14:32:16] [Async Chat Thread - #9/INFO]: <TacoHardcore> nos ponemos todos en un lugar
+[14:32:17] [Async Chat Thread - #9/INFO]: <drekblood> que hace o comoo
+[14:32:19] [Async Chat Thread - #9/INFO]: <TacoHardcore> y con las tijeras
+[14:32:26] [Async Chat Thread - #9/INFO]: <TacoHardcore> nos empezamos a quitar las hojas
+[14:32:30] [Async Chat Thread - #9/INFO]: <TacoHardcore> el que quede último gana
+[14:32:33] [Async Chat Thread - #9/INFO]: <drekblood> :o
+[14:32:40] [Async Chat Thread - #9/INFO]: <TacoHardcore> espera
+[14:32:42] [Async Chat Thread - #9/INFO]: <TacoHardcore> deja relleno
+[14:32:45] [Async Chat Thread - #9/INFO]: <drekblood> jaja okk
+[14:33:40] [Async Chat Thread - #9/INFO]: <TacoHardcore> ya
+[14:35:10] [Async Chat Thread - #10/INFO]: <drekblood> aguantaa jaja
+[14:35:12] [Async Chat Thread - #10/INFO]: <TacoHardcore> simon
+[14:35:13] [Async Chat Thread - #10/INFO]: <TacoHardcore> jajajja
+[14:35:16] [Async Chat Thread - #10/INFO]: <TacoHardcore> tu me dices
+[14:35:23] [Async Chat Thread - #10/INFO]: <drekblood> ydale
+[14:35:57] [Async Chat Thread - #10/INFO]: <drekblood> lol
+[14:35:58] [Async Chat Thread - #10/INFO]: <TacoHardcore> aqui ya se quita con pala
+[14:35:59] [Async Chat Thread - #10/INFO]: <TacoHardcore> jajjaja
+[14:36:03] [Async Chat Thread - #10/INFO]: <TacoHardcore> pero asi
+[14:36:05] [Async Chat Thread - #10/INFO]: <TacoHardcore> ta divertido
+[14:36:06] [Async Chat Thread - #10/INFO]: <TacoHardcore> de muchos
+[14:36:07] [Async Chat Thread - #10/INFO]: <drekblood> esta chiido
+[14:36:13] [Async Chat Thread - #10/INFO]: <drekblood> pensar que es survival
+[14:36:21] [Async Chat Thread - #10/INFO]: <TacoHardcore> ajjajaj
+[14:36:22] [Async Chat Thread - #10/INFO]: <drekblood> ya es otro niveel jaja
+[14:36:23] [Async Chat Thread - #10/INFO]: <TacoHardcore> es survival
+[14:36:33] [Async Chat Thread - #10/INFO]: <drekblood> ahora lo respaldo y te mando el link de github
+[14:36:39] [Async Chat Thread - #10/INFO]: <TacoHardcore> vaaa
+[14:36:40] [Async Chat Thread - #10/INFO]: <TacoHardcore> thx
+[14:36:44] [Async Chat Thread - #10/INFO]: <drekblood> ta chiodoo te la rifas aless
+[14:36:48] [Async Chat Thread - #10/INFO]: <TacoHardcore> yashiashhhhhhhhhhhh
+[14:36:50] [Async Chat Thread - #10/INFO]: <TacoHardcore> nomas en el mc
+[14:36:55] [Async Chat Thread - #10/INFO]: <drekblood> ewn ela pes
+[14:36:55] [Async Chat Thread - #10/INFO]: <TacoHardcore> ojalá fuera asi en la vida
+[14:36:56] [Async Chat Thread - #10/INFO]: <TacoHardcore> jajajaj
+[14:36:58] [Async Chat Thread - #10/INFO]: <drekblood> en el apes y todo
+[14:37:02] [Async Chat Thread - #10/INFO]: <drekblood> solo es cuestion de enfocar
+[14:37:05] [Async Chat Thread - #10/INFO]: <TacoHardcore> sis
+[14:37:12] [Async Chat Thread - #10/INFO]: <drekblood> ya me salgoo que me llego algoo
+[14:37:14] [Async Chat Thread - #10/INFO]: <TacoHardcore> :)
+[14:37:15] [Async Chat Thread - #10/INFO]: <TacoHardcore> dale
+[14:37:17] [Async Chat Thread - #10/INFO]: <TacoHardcore> nos vemos
+[14:37:18] [Async Chat Thread - #10/INFO]: <TacoHardcore> ty
+[14:37:19] [Async Chat Thread - #10/INFO]: <drekblood> nos vemos al ratito espero esta vez si conectarme
+[14:37:22] [Async Chat Thread - #10/INFO]: <TacoHardcore> vavavava
+[14:37:23] [Async Chat Thread - #10/INFO]: <drekblood> saless
+[14:37:26] [Async Chat Thread - #10/INFO]: <TacoHardcore> byeee
+[14:37:26] [Server thread/INFO]: drekblood lost connection: Disconnected
+[14:37:26] [Server thread/INFO]: drekblood left the game
